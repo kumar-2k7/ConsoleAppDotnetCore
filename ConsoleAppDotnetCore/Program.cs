@@ -1,4 +1,5 @@
 ﻿using ConsoleAppDotnetCore.FactoryMethodDemo;
+using ConsoleAppDotnetCore.RepositoryPatternDemo;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ConsoleAppDotnetCore
@@ -20,7 +21,9 @@ namespace ConsoleAppDotnetCore
 
             //ServiceLifeCycleDemoRun.Run();
 
-            FactoryMethodDemoRun.Run(services);
+            //FactoryMethodDemoRun.Run(services);
+
+            RepositoryPatternDemoRun.Run(services);
 
             Console.ReadLine();
         }
