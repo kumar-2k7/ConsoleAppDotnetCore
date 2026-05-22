@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CompanyNamespace/CompanyNamespace.csproj" Id="2e619c97-32aa-4672-add1-9765d7bc158f" />
+  <Project Path="ConsoleApp.Services/ConsoleApp.Services.csproj" />
+  <Project Path="ConsoleAppDotnetCore/ConsoleAppDotnetCore.csproj" />
+</Solution>
