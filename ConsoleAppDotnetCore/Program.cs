@@ -1,4 +1,7 @@
-﻿using ConsoleAppDotnetCore.SemaphoreSlimDemo;
+﻿using ConsoleAppDotnetCore.FactoryMethodDemo;
+using ConsoleAppDotnetCore.PredicateDemo;
+using ConsoleAppDotnetCore.RepositoryPatternDemo;
+using ConsoleAppDotnetCore.SemaphoreSlimDemo;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ConsoleAppDotnetCore
@@ -22,6 +25,9 @@ namespace ConsoleAppDotnetCore
 
             //FactoryMethodDemoRun.Run(services);
 
+            //RepositoryPatternDemoRun.Run(services);
+
+            PredicateDemoRun.Run();
             //RepositoryPatternDemoRun.Run(services);
 
             SemaphoreSlimDemoRun.Run().GetAwaiter().GetResult();
