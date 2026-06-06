@@ -1,8 +1,4 @@
-﻿using ConsoleAppDotnetCore.FactoryMethodDemo;
-using ConsoleAppDotnetCore.PredicateDemo;
-using ConsoleAppDotnetCore.RepositoryPatternDemo;
-using ConsoleAppDotnetCore.SemaphoreSlimDemo;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace ConsoleAppDotnetCore
 {
@@ -15,22 +11,27 @@ namespace ConsoleAppDotnetCore
             var services = new ServiceCollection();
             services.AddDependencyMapping();
 
-            //SingletonClassTestRun.Run();
+            //SingletonClassDemo.SingletonClassTestRun.Run();
 
-            //AbstructionDemoRun.Run();
+            //AbstructionDemo.AbstructionDemoRun.Run();
 
-            //GenerateCsvFileDemoRun.Run();
+            //GenerateCsvFileDemo.GenerateCsvFileDemoRun.Run();
 
-            //ServiceLifeCycleDemoRun.Run();
+            //ServiceLifeCycleDemo.ServiceLifeCycleDemoRun.Run();
 
-            //FactoryMethodDemoRun.Run(services);
+            //FactoryMethodDemo.FactoryMethodDemoRun.Run(services);
 
-            //RepositoryPatternDemoRun.Run(services);
+            //PredicateDemo.PredicateDemoRun.Run();
 
-            PredicateDemoRun.Run();
-            //RepositoryPatternDemoRun.Run(services);
+            //RepositoryPatternDemo.RepositoryPatternDemoRun.Run(services);
 
-            SemaphoreSlimDemoRun.Run().GetAwaiter().GetResult();
+            //SemaphoreSlimDemo.SemaphoreSlimDemoRun.Run().GetAwaiter().GetResult();
+
+            //TypeSystem.PrimitiveTypesDemo.Run();
+
+            //TypeSystem.ReferenceTypeDemo.Run();
+
+            DelegateDemo.DelegateDemoRun.Run();
 
             Console.ReadLine();
         }
