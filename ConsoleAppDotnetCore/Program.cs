@@ -31,7 +31,19 @@ namespace ConsoleAppDotnetCore
 
             //TypeSystem.ReferenceTypeDemo.Run();
 
-            DelegateDemo.DelegateDemoRun.Run();
+            //DelegateDemo.DelegateDemoRun.Run();
+
+            //PatternMatchingDemo.PatternMatchingDemoRun.Run();
+
+            //EventDemo.EventDemoRun.Run();
+
+            //DelegateEventDemo.DelegateEventDemoRun.Run();
+
+            //PartialClassDemo.PartialClassDemoRun.Run();
+
+            //YieldKeywordDemo.YieldKeywordDemoRun.Run();
+
+            CancellationTokenDemo.CancellationTokenDemoRun.Run();
 
             Console.ReadLine();
         }
