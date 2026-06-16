@@ -24,7 +24,8 @@ namespace ConsoleAppDotnetCore.SemaphoreSlimDemo
         }
 
         private static async Task ProcessRequestsAsync(int totalRequests, int maxConcurrency)
-        {// Semaphore limits the number of threads entering this code block simultaneously
+        {
+            // Semaphore limits the number of threads entering this code block simultaneously
             using var semaphore = new SemaphoreSlim(maxConcurrency);
             var tasks = new List<Task>();
 

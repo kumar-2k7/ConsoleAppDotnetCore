@@ -41,9 +41,13 @@ namespace ConsoleAppDotnetCore
 
             //PartialClassDemo.PartialClassDemoRun.Run();
 
-            //YieldKeywordDemo.YieldKeywordDemoRun.Run();
+            YieldKeywordDemo.YieldKeywordDemoRun.Run();
 
-            CancellationTokenDemo.CancellationTokenDemoRun.Run();
+            //CancellationTokenDemo.CancellationTokenDemoRun.Run();
+
+            //AdvanceTopics.ConcurrentDictionaryDemo.ConcurrentDictionaryDemoRun.Run().GetAwaiter().GetResult();
+
+            //AdvanceTopics.FastLookupDemo.FastLookupDemoRun.Run();
 
             Console.ReadLine();
         }
