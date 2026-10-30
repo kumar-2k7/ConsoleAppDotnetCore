@@ -10,7 +10,7 @@ namespace ConsoleAppDotnetCore
 
             var services = new ServiceCollection();
             services.AddDependencyMapping();
-            services.TestClassesWithRunMethods("BcxQuestionDemo");
+            services.TestClassesWithRunMethods("DecoratorPatternDemo");
         }
     }
 }
